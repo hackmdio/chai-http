@@ -15,7 +15,7 @@ declare global {
         }
 
         interface ChaiHttpRequest {
-            (server: any, options: any): ChaiHttp.Agent;
+            (server: any, options?: any): ChaiHttp.Agent;
 
             agent(server: any): ChaiHttp.Agent;
 
